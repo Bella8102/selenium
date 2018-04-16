@@ -8,7 +8,6 @@ class job_360(object):
 		self.dr.get('http://hr.360.cn/list')
 
 	def job(self):		
-		
 		time.sleep(2)
 		self.dr.find_element_by_link_text('技术').click()
 		num=1
